@@ -17,7 +17,11 @@ const About = () => (
                 <p><FormattedMessage
                     id="about.introOne"
                     values={{foundationLink: (
-                        <a href="https://www.scratchfoundation.org/">
+                        <a
+                            href="https://www.scratchfoundation.org/"
+                            rel="noreferrer noopener"
+                            target="_blank"
+                        >
                             <FormattedMessage id="about.foundationText" />
                         </a>
                     )}}
@@ -135,7 +139,11 @@ const About = () => (
                                 </a>
                             ),
                             lifelongKindergartenGroupLink: (
-                                <a href="https://www.media.mit.edu/groups/lifelong-kindergarten/overview/">
+                                <a
+                                    href="https://www.media.mit.edu/groups/lifelong-kindergarten/overview/"
+                                    rel="noreferrer noopener"
+                                    target="_blank"
+                                >
                                     <FormattedMessage id="about.lifelongKindergartenGroupLinkText" />
                                 </a>
                             ),
@@ -214,7 +222,11 @@ const About = () => (
                             )
                         }}
                     /></p>
-                    <a href="//secure.donationpay.org/scratchfoundation/">
+                    <a
+                        href="//secure.donationpay.org/scratchfoundation/"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                    >
                         <Button className="about-button">
                             <FormattedMessage id="about.donateButton" />
                         </Button>
